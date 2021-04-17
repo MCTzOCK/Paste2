@@ -1,5 +1,6 @@
 # Paste 2
 Paste 2 is a simple Paste Server (like Hastebin).
+[Demo](https://mctzock.de/paste)
 
 ## Installation
 
