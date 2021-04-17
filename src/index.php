@@ -10,7 +10,7 @@ if(!isset($_POST['upload_text'])){
         die("Error, your text is too long!");
     }
     $file = getRandomString(16);
-    file_put_contents($baseDirectory . "/" . $file, $text);
+    file_put_contents($baseDirectory . "/" . $file, htmlspecialchars($text));
     echo "Your URL is <a href='$baseUrl$file'>$baseUrl$file</a>";
 }
 
